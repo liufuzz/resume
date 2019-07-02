@@ -1,0 +1,34 @@
+body {
+  font-family: 'Times New Roman', serif;
+  font-size: 12pt;
+  background: none;
+}
+.container {
+  margin-left: -70px;
+}
+.container .side {
+  width: 100%;
+  box-shadow: none;
+}
+.container .side .profile{
+  margin-bottom: 0;
+}
+.contact .side br {
+  display: none;
+}
+.container .side .contact h2,
+.container .side .contact hr {
+  display: none;
+}
+.container .side .skill {
+  display: none;
+}
+
+.container .main {
+  position: absolute;
+  /* top: 20px; */
+  width: 100%;
+  margin-left: 0px;
+  box-shadow: none;
+  top: 480px;
+}
